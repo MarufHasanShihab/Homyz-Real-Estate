@@ -1,4 +1,5 @@
 import "./App.css";
+import Companies from "./Components/Companies/Companies";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 
@@ -10,6 +11,7 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
+      <Companies/>
     </div>
   );
 };
