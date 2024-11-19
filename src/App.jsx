@@ -1,13 +1,17 @@
-import './App.css'
-import Navbar from './Components/Navbar/Navbar'
+import "./App.css";
+import Hero from "./Components/Hero/Hero";
+import Navbar from "./Components/Navbar/Navbar";
 
-const App = ()=> {
-
+const App = () => {
   return (
-    <>
-    <Navbar/>
-    </>
-  )
-}
+    <div className="app">
+      <div>
+        <div className="white__gradient"/>
+        <Navbar />
+        <Hero />
+      </div>
+    </div>
+  );
+};
 
-export default App
+export default App;

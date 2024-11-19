@@ -1,7 +1,4 @@
-nav{
-    background-color: var(--black);
-    color: white;
-}
+
 
 .nav__container{
     justify-content: space-between;
